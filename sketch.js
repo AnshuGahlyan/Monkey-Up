@@ -157,7 +157,7 @@ function obs(){
   ob.addImage(obImage);
    ob.velocityX = -(6+score/2);;
     ob.setCollider("circle",0,0,40);
-      ob.debug = true;
+      ob.debug = false;
     ob.scale = 0.11;
     ob.lifetime = 220;
   obGroup.add(ob);
@@ -170,7 +170,7 @@ function bananas(){
   banana.addImage(bananaImage);
    banana.velocityX = -(5+score/2);
 banana.setCollider("circle",0,50,40);
-      banana.debug = true;
+      banana.debug = false;
     banana.scale = 0.09;
       banana.lifetime = 220;
   bananaGroup.add(banana);
